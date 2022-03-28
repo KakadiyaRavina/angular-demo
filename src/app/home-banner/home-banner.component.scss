@@ -1,0 +1,28 @@
+.home-banner{position: relative;}
+.home-banner .item{padding-bottom: 48%;background-size: cover;background-repeat: no-repeat;}
+.banner-caption{position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 860px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+.banner-caption .banner-title{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    display: block;
+}
+.banner-caption p{
+    max-width: 589px;
+    margin: 0px auto 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.login-btns .primary-button:first-child{
+    margin-right: 15px;
+}

@@ -1,0 +1,7 @@
+.text-image-block{padding: 40px 0;}
+.text-image-block .text-image-wrapper{display: flex;}
+.text-image-block .text-image-wrapper .image-block{max-width: 50%; flex: 0 0 50%; padding: 0 20px;}
+.image-block .inner-block{overflow: hidden;height: 100%;border-radius:10px; }
+.text-image-block .text-image-wrapper .image-block .bg-img{transition: all .9s;background-position: center center; background-size: cover; background-repeat: no-repeat; height: 100%;display: block;}
+.text-image-block .text-image-wrapper .content-block{max-width: 50%; flex: 0 0 50%; padding: 30px 20px;}
+.content-block p{font-size: 20px;font-weight: 300;line-height: 1.8;}

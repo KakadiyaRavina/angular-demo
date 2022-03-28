@@ -1,0 +1,14 @@
+header{position: fixed; top: 0;left: 0;right: 0;z-index: 11;padding: 15px 0;}
+.header-wrapper{display: flex;justify-content: space-between; flex-wrap: wrap;}
+.header-wrapper .header-left{display: flex;align-items: center;}
+.header-wrapper .logo-link{max-width: 100px;margin-right: 15px;}
+.header-wrapper .logo-link img{width: 100%;}
+.header-wrapper .header-left ul{display: flex; padding: 0;margin: 0;}
+.header-wrapper .header-left ul li a{font-size: 15px;color: #fff;text-decoration: none;}
+.header-wrapper .header-left ul li:not(:last-child){margin-right: 15px;}
+.header-wrapper .header-right{display: flex; align-items: center;}
+.header-wrapper .header-right .country-select{display: flex;margin-right: 10px;}
+.header-wrapper .header-right .country-select i{margin-right: 8px;}
+.header-wrapper .header-right .country-select i img{width: 20px;}
+.header-wrapper .header-right .country-select select{text-transform: uppercase; background: transparent; color: #fff;border: 0;outline: 0;box-shadow: none;}
+.flag img{width: 150px;}
