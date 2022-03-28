@@ -10,7 +10,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TextImageBlockComponent } from './text-image-block/text-image-block.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutCtnComponent } from './about-ctn/about-ctn.component';
-import { InnerPageBannerComponent } from './inner-page-banner/inner-page-banner.component'
+import { InnerPageBannerComponent } from './inner-page-banner/inner-page-banner.component';
+import { ServicesProvideComponent } from './services-provide/services-provide.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InnerPageBannerComponent } from './inner-page-banner/inner-page-banner.
     TextImageBlockComponent,
     FooterComponent,
     AboutCtnComponent,
-    InnerPageBannerComponent
+    InnerPageBannerComponent,
+    ServicesProvideComponent
   ],
   imports: [
     BrowserModule,
